@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    background-color: rgb(216, 112, 147);
+}
+h1{
+    color: rgb(33, 32, 128);
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.content{
+    min-height: 30rem;
+    width: 50rem;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.583);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+.inp_add{
+    width: 43rem;
+    height: 1.6rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(56, 56, 56);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+    padding-left: 0.5rem;
+}
+.addtodo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.btn_add{
+    width: 2.5rem;
+    color: white;
+    background-color: rgb(0, 165, 0);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    cursor: pointer;
+}
+.btn_add:hover{
+    background-color: rgb(161, 236, 142);
+    color: rgb(0, 145, 0);
+    border: 1px solid rgb(0, 165, 0);
+}
+.boxcards{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    background-color: rgb(182, 182, 182);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+.textcard label{
+    border-radius: 0.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    padding-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.edit{
+    width: 2.5rem;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: none; 
+    cursor: pointer;
+}
+.delete{
+    width: 2.5rem;
+    color: white;
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: none; 
+    cursor: pointer;
+}
+.contentmodal{
+    display: none;
+    position: absolute;
+    background-color: rgb(186, 184, 184);
+    width: 30rem;
+    min-height: 10rem;
+    border-radius: 0.1rem;
+    box-shadow:3px 3px 4px rgba(0, 0, 0, 0.6); 
+}
+.mark{
+    text-decoration: line-through;
+}
+.modal{
+    padding: 2rem;
+}
+#inp_edit{
+    width: 80%;
+   margin-right: 0.5rem;
+}
